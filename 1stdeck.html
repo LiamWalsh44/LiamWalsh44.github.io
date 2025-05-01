@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Card Collection Checklist</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="Homepage.html">Homepage</a>
+        <a href="1stdeck.html">Darkrai/Weavile Deck</a>
+        <a href="2nddeck.html">Celebi Deck</a>
+        <a href="3rddeck.html">Charizard Deck</a>
+    </div>
+    <div class="leftsidebar">
+        <h2>Suggest a Deck</h2>
+        <p>Have a great Pokémon TCG Pocket deck idea? Share it below!</p>
+        <form id="suggestion-form">
+            <input type="text" id="suggestion-input" placeholder="Enter deck idea...">
+            <button type="submit">Submit</button>
+        </form>
+          <div id="suggestion-list"></div>
+        <h3 style="margin-top: 20px;">Deck Instructions</h3>
+        <p><strong>Darkrai/Weavile:</strong> The strength of this deck is quick setup for pretty good damage. It has the capbilities to do 90 damage on your first turn getting an energy. You can accomplish this by putting an energy on the darkrai the using dawn to transfer it to the weavile in the active slot to do 90 damage in total with the darkrai passive dealing 20 and the opponents active pokemon having damage buffing weaviles damage to 70. If you get this perfect luck early it is essentially a guaranteed win but even if not with cyrus and other tools this deck can makeup for even the worst of luck and does not take long to learn at all</p>
+    </div>
+    <div class="control-buttons">
+        <button id="select-all">Select All</button>
+        <button id="clear-all">Clear All</button>
+    </div>
+    <div class="card-list">
+
+        <div class="card-item">
+            <input type="checkbox" id="Darkrai">
+            <label for="Darkrai">Darkrai</label>
+            <img src="media/pictures/darkraiex.jpeg" alt="Darkraiex card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="Weavile">
+            <label for="Weavile">Weavile</label>
+            <img src="media/pictures/Weavile.jpeg" alt="Weavileex card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="sneasel">
+            <label for="sneasel">Sneasel</label>
+            <img src="media/pictures/sneasel.jpeg" alt="Sneasel card">
+        </div>
+       
+        <div class="card-item">
+            <input type="checkbox" id="pokeball">
+            <label for="pokeball">Pokeball</label>
+            <img src="media/pictures/pokeball.jpeg" alt="Sneasel card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="prof">
+            <label for="prof">Professor's Research</label>
+            <img src="media/pictures/professor'sresearch.jpeg" alt="Sneasel card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="trainer">
+            <label for="trainer">Other trainer/item cards to your preference or to what you have not as important as other cards listed above.</label>
+            <img src="media/pictures/trainer.jpeg" alt="Sneasel card">
+        </div>
+    </div>
+    </div>
+    <script src="decks.js"></script>
+</body>
+</html>
