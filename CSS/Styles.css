@@ -90,6 +90,7 @@ header {
     align-items: baseline;
     text-align: center;
     color: black;
+    background-attachment: fixed;
     max-width: 800px;
 }
 
