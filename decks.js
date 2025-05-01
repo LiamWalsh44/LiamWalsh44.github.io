@@ -1,4 +1,4 @@
-// ✅ 1. Checkbox state persistence & green highlight
+//  1. Checkbox state persistence & green highlight
 document.querySelectorAll('.card-item input[type="checkbox"]').forEach(box => {
     const id = box.id;
     const parent = box.closest('.card-item');
@@ -14,7 +14,7 @@ document.querySelectorAll('.card-item input[type="checkbox"]').forEach(box => {
     });
   });
   
-  // ✅ 2. Select All / Clear All functionality
+  //  2. Select All / Clear All functionality
   const checkboxes = document.querySelectorAll('.card-item input[type="checkbox"]');
   
   document.getElementById('select-all').addEventListener('click', () => {
@@ -33,7 +33,7 @@ document.querySelectorAll('.card-item input[type="checkbox"]').forEach(box => {
     });
   });
   
-  // ✅ 3. Deck suggestion with save + delete
+  // 3. Deck suggestion with save + delete
   const suggestionForm = document.getElementById('suggestion-form');
   const suggestionInput = document.getElementById('suggestion-input');
   const suggestionList = document.getElementById('suggestion-list');
