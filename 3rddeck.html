@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokémon Card Collection Checklist</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="index.html">Homepage</a>
+        <a href="1stdeck.html">Darkrai/Weavile Deck</a>
+        <a href="2nddeck.html">Celebi Deck</a>
+        <a href="3rddeck.html">Charizard Deck</a>
+    </div>
+    <div class="leftsidebar">
+        <h2>Suggest a Deck</h2>
+        <p>Have a great Pokémon TCG Pocket deck idea? Share it below!</p>
+        <form id="suggestion-form">
+            <input type="text" id="suggestion-input" placeholder="Enter deck idea...">
+            <button type="submit">Submit</button>
+        </form>
+          <div id="suggestion-list"></div>
+        <h3 style="margin-top: 20px;">Deck Instructions</h3>
+        <p><strong>Celebi:</strong> </p>
+    </div>
+    <div class="control-buttons">
+        <button id="select-all">Select All</button>
+        <button id="clear-all">Clear All</button>
+    </div>
+    <div class="card-list">
+
+        <div class="card-item">
+            <input type="checkbox" id="Charizard">
+            <label for="Charizard">Charizard</label>
+            <img src="Media/pictures/Charizard.jpeg" alt="Charizard card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="Charmander">
+            <label for="Charmander">Charmander</label>
+            <img src="Media/pictures/Charmander.jpeg" alt="Charmander card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="Charmeleon">
+            <label for="Charmeleon">Charmeleon</label>
+            <img src="Media/pictures/charmeleon.jpeg" alt="Charmeleon card">
+        </div>
+        
+        <div class="card-item">
+            <input type="checkbox" id="Moltres">
+            <label for="Molotres">Moltres</label>
+            <img src="Media/pictures/moltres.jpeg" alt="Moltres card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="pokeball">
+            <label for="pokeball">Pokéball</label>
+            <img src="Media/pictures/pokeball.jpeg" alt="Pokeball card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="prof">
+            <label for="prof">Professor's Research</label>
+            <img src="Media/pictures/professor'sresearch.jpeg" alt="Pokeball card">
+        </div>
+
+        <div class="card-item">
+            <input type="checkbox" id="trainer">
+            <label for="trainer">Other trainer/item cards to your preference or to what you have not as important as other cards listed above.</label>
+            <img src="Media/pictures/trainer.jpeg" alt="Sneasel card">
+        </div>
+    </div>
+    </div>
+    <script src="decks.js"></script>
+</body>
+</html>
